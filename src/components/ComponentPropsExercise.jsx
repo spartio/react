@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import React from 'react';
 import catInvalid from 'images/cat-invalid.png';
 import Img from 'components/Img';
