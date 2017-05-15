@@ -8,4 +8,3 @@ const Component = props => (
 );
 /* 😺 😸 😹 😻 😼 😽 🙀 😿 😾*/
 export default Component;
-<div className='emoji'>{'😁'}</div>
