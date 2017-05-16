@@ -27,10 +27,16 @@ class ValidateInput extends React.Component {
 
   onTextChanged = (event) => {
     const text = event.target.value;
-    const nextState = { text, };
+    this.setState({ text, });
+    // const nextState = { text, };
   };
 
   onBlur= () => {
+    if (this.props.validate(this.state.text)) {
+      this.setState({ invalid: false, });
+    } else {
+      this.setState({ invalid: true, });
+    }
   };
 
   render() {
